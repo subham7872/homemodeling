@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Custom Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: #FDFBF9;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom Color Classes */
+.bg-warm-gray { 
+  background-color: #F5F2EF; 
+}
+
+.text-warm-gray { 
+  color: #4A443F; 
+}
+
+.accent-orange { 
+  background-color: #D97706; 
+}
+
+.accent-orange-hover:hover { 
+  background-color: #B45309; 
+}
+
+.border-warm { 
+  border-color: #E5E1DD; 
+}
